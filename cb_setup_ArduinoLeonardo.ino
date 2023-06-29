@@ -16,26 +16,6 @@ void setupCB(){
   Keyboard.write(KEY_RETURN);
   delay(15000);
   
-  //Agree to TOS:
-  Keyboard.press(KEY_LEFT_SHIFT);
-  Keyboard.press(KEY_TAB);
-  Keyboard.releaseAll();
-  delay(500);
-  Keyboard.press(KEY_LEFT_SHIFT);
-  Keyboard.press(KEY_TAB);
-  Keyboard.releaseAll();
-  delay(500);
-  Keyboard.press(KEY_LEFT_SHIFT);
-  Keyboard.press(KEY_TAB);
-  Keyboard.releaseAll();
-  delay(500);
-  Keyboard.press(KEY_LEFT_SHIFT);
-  Keyboard.press(KEY_TAB);
-  Keyboard.releaseAll();
-  delay(500);
-  Keyboard.write(KEY_RETURN);
-  delay(15000);
-  
   //Enterprise Enrollment
   Keyboard.press(KEY_LEFT_CTRL);
   Keyboard.press(KEY_LEFT_ALT);
